@@ -1,0 +1,19 @@
+{
+  "name": "shopify-site-password-cookie",
+  "version": "1.0.3",
+  "description": "Get the shopify cookie for local development. Fixes the issue where password form won't submit on Safari local dev server.",
+  "main": "index.js",
+  "bin": {
+    "shopify-site-password-cookie": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "readline-sync": "^1.4.10"
+  }
+}
